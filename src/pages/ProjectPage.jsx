@@ -44,7 +44,7 @@ const ProjectPage = () => {
         <h1 className="text-4xl font-bold text-center mb-10 text-gray-300">My Projects</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <div key={index} className="bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+            <div key={index} className="bg-gray-900  rounded-lg shadow-lg overflow-hidden">
               <img
                 src={project.imageUrl}
                 alt={`Image for ${project.title}`}

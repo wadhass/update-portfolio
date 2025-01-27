@@ -47,7 +47,7 @@ const ContactMe = () => {
 
   return (
     <section
-      id="contact"
+      id="contactme"
       className="relative w-full h-auto sm:h-[100vh] flex flex-col items-center justify-center z-0 text-black"
       style={{
         backgroundImage: `url(${lap})`,
@@ -98,7 +98,7 @@ const ContactMe = () => {
           ></textarea>
           <button
             type="submit"
-            className="bg-blue-500 text-white font-semibold py-3 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+            className="bg-gray-900 border border-gray-400 text-white font-semibold py-3 rounded-md hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-yellow-500"
           >
             Send Your Message
           </button>
